@@ -1,0 +1,2 @@
+date_generated,intended_entry_date,ticker,strategy,shares,hold_days,planned_exit_date,rank_score,atr14_pct,qqq_risk_on,tp_enabled,ref_close,entry_limit_rule
+2026-01-02,2026-01-05,IBM,TP_v2,1,20,,0.04288152634385667,0.02173242110986359,True,True,291.5,limit = ref_close * 1.01 (active 9:30-9:35 ET)

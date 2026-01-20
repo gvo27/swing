@@ -1,0 +1,2 @@
+date_generated,intended_entry_date,ticker,strategy,shares,hold_days,planned_exit_date,rank_score,atr14_pct,qqq_risk_on,tp_enabled,ref_close,entry_limit_rule
+2026-01-06,2026-01-07,AIG,MR_1A,4,10,,0.08743428509766604,0.02539611904045588,True,True,78.06999969482422,limit = ref_close * 1.01 (active 9:30-9:35 ET)
