@@ -18,6 +18,8 @@ Pre The Great Schism (it's not even that "far" back from where we are now becaus
 3:gate, close_col, date_col 
 *31b_portfolio_backtest_slots_cash4.py is the EXACT same as FREEZE
 
+top: test.py vs FREEZE
+bot: new 31b vs FREEZE 
 
 PAPER TRADING:
 I started over because we got too bogged on on debugging. We are now setting up paper trading then moving into v2 in the same chat. 
@@ -32,6 +34,13 @@ then incorporate earning dates and news DONE
 update 15_build_qqq_dd52w.py and 01_build_dataset_sp1002.py everyday before running v1_1_tp_off_riskoff_live2.py
 
 LIVE TRADING: limit order, 1/2 size floor round down
+
+{I suppose this is only...} inquiry about v2 integration and beginning "stale" signals 
+the paper trading has two messy routes at this point, I branched after inquiring about using actual money
+ASK about 100,000 then not having that for same allocation 
+
+{I'm not too concerned about it...} sell at following open sanity check
+{Real quick before I do...} ticker lists changing inquiry, tends to actually benefit MR over TP, shape is accurate but returns can be optimistic, keep capital low (for me) don't do full size yet 
 
 
 v2:
@@ -55,8 +64,9 @@ v2_0_31b_slots_cash3_TP_v2__MR_stress_replace_MR_P1_FREEZE.py: first major 2022 
 4: budget tweak, figurin it out, better overall numbers but 2022 slid
 5: currently exploded but we gotta make sure we're not cheating
 6: same thing w sanities, it's legit!
-7: another sanity, and then ask about your help 
-
+7: a bunch more sanities: confirmed no leakage
+8: more sanities for bias con 
+and then ask about your help 
 
 GPT lead v2: 
 "Option A"
@@ -216,6 +226,12 @@ step 5: more print lines, inexplicit code
 		v2_portfolio_regime5.py
 			we've reverted BACK to 3 this one after 4 failed, changed some exposure stuff again and now are going to include code to get average open positions 
 		v2_portfolio_regime6.py: conceptual fix, emphasis on strong (just changing exposure)
+
+
+MACHINE LEARNING NOTES:
+
+A TON of data: parameter sweep, more tickers ~3000 data points is good, needs 100x that amount, only daily closes because of diminishing returns with noise, no free version, and volume, source being yahoo finance was questionable  
+
 
 
 

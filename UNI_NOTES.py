@@ -21,3 +21,5 @@ MAKE SURE YOU TYPE A MESSAGE INTO THE BRANCH BEFORE DELETING
 Focus on these [ branches, it's okay to try something then going back 
 
 GPT logic path can be different, so doing intentional branching can be a strat. When we first got the 1000+ CAGR it suggested the MR gate after I broke its sequence by not saying albation, and then going back to it it just did a simple gate with TP 
+
+nonlocals need to be declared outside of the inner functions that calls them (my wording)

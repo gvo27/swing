@@ -18,3 +18,5 @@ False: Total return: 801.03% CAGR: 24.09% Max Drawdown: -37.37%
 2023 0.267423 
 2024 0.337792 
 2025 0.291324
+
+ask about having 100,000 then not affecting per trade allocations 
