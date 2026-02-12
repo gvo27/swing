@@ -1,1 +1,1 @@
-testing local (non-ssh) version control
+testing local (ssh) version control
